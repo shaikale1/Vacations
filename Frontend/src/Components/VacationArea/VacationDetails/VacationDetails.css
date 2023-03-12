@@ -1,0 +1,53 @@
+.VacationDetails .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.VacationDetails #previous,
+#next {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.VacationDetails #previous,
+#next:hover {
+    background-color: #0069d9;
+}
+
+.VacationDetails #next[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.VacationDetails #filter  {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.VacationDetails #filter {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.VacationDetails .checkbox{
+    display: inline-block;
+    background-color: #7a92aa;
+    margin: 10px;
+    padding-top:10px ;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+}

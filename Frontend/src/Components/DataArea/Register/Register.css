@@ -1,0 +1,36 @@
+.Register>form {
+    border: 1px solid;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0  0 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.Register label{
+    font-size: x-large;
+}
+
+.Register input,.Register button{
+width: 100%;
+box-sizing: border-box;
+margin-bottom: 20px;
+font-size: x-large;
+
+}
+
+h2{
+    text-align: center;
+    color: lightskyblue;
+}
+
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white ;
+    background-color: blue;
+}
+form span , form a{
+    display: grid;
+    text-align: center;
+}

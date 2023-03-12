@@ -1,0 +1,24 @@
+body,html{
+    height: 100%;
+}
+
+.EditVacation >form {
+    border: 1px solid;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0  0 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.EditVacation  label{
+    font-size: x-large;
+}
+
+.EditVacation  input,.EditVacation  button{
+width: 100%;
+box-sizing: border-box;
+margin-bottom: 20px;
+font-size: x-large;
+}
